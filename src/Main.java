@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
     public static int Suites_Run = 0;
     public static int Suites_Passed = 0;

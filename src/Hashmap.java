@@ -98,7 +98,7 @@ public class Hashmap {
             return index;
         }
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 1; i < array.length; i++) {
             int probe = Math.abs(index + (i % 2 == 0 ? 1 : -1) * (int) (Math.pow((i + 1) / 2, 2)) * prime.currentPrime()) % array.length;
             element = array[probe];
             if (element != null && element.studentNumber == studentNumber) {
